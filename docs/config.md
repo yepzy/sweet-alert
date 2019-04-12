@@ -31,7 +31,7 @@ in your master layout
 @include('sweetalert::alert')
 ```
 
-and run the below command to publish the sweetalert.all.js in your public assets.
+Need to install [SweetAlert2](https://sweetalert2.github.io/)
 
 ```bash
 php artisan vendor:publish --provider="RealRashid\SweetAlert\SweetAlertServiceProvider"

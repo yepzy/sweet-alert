@@ -22,10 +22,6 @@ class SweetAlertServiceProvider extends ServiceProvider
                 __DIR__ . '/Views' => resource_path('views/vendor/sweetalert'),
             ]
         );
-
-        $this->publishes([
-           __DIR__.'/js' => public_path('vendor/sweetalert'),
-        ], 'public');
     }
 
     /**
